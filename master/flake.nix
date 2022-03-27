@@ -11,6 +11,7 @@
   inputs.src-gh_nimrod_doc_pages-master.ref   = "refs/heads/master";
   inputs.src-gh_nimrod_doc_pages-master.owner = "Araq";
   inputs.src-gh_nimrod_doc_pages-master.repo  = "gh_nimrod_doc_pages";
+  inputs.src-gh_nimrod_doc_pages-master.dir   = "";
   inputs.src-gh_nimrod_doc_pages-master.type  = "github";
   
   inputs."midnight_dynamite".owner = "nim-nix-pkgs";
