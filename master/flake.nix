@@ -11,7 +11,6 @@
   inputs.src-gh_nimrod_doc_pages-master.ref   = "refs/heads/master";
   inputs.src-gh_nimrod_doc_pages-master.owner = "Araq";
   inputs.src-gh_nimrod_doc_pages-master.repo  = "gh_nimrod_doc_pages";
-  inputs.src-gh_nimrod_doc_pages-master.dir   = "";
   inputs.src-gh_nimrod_doc_pages-master.type  = "github";
   
   inputs."midnight_dynamite".owner = "nim-nix-pkgs";
@@ -29,6 +28,14 @@
   inputs."argument_parser".type  = "github";
   inputs."argument_parser".inputs.nixpkgs.follows = "nixpkgs";
   inputs."argument_parser".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."github.com/gradha/badger_bits".owner = "nim-nix-pkgs";
+  inputs."github.com/gradha/badger_bits".ref   = "master";
+  inputs."github.com/gradha/badger_bits".repo  = "github.com/gradha/badger_bits";
+  inputs."github.com/gradha/badger_bits".dir   = "";
+  inputs."github.com/gradha/badger_bits".type  = "github";
+  inputs."github.com/gradha/badger_bits".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/gradha/badger_bits".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."lazy_rest".owner = "nim-nix-pkgs";
   inputs."lazy_rest".ref   = "master";
