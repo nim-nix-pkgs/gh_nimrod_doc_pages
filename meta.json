@@ -7,7 +7,7 @@
   "license": "MIT",
   "web": "https://github.com/Araq/gh_nimrod_doc_pages",
   "refs": [
-    "fatal: unable to access 'https://github.com/Araq/gh_nimrod_doc_pages/': Could not resolve host: github.com",
+    "fatal: unable to access 'https://github.com/Araq/gh_nimrod_doc_pages/': Failed to connect to github.com port 443 after 129984 ms: Connection timed out",
     ""
   ],
   "heads": []
